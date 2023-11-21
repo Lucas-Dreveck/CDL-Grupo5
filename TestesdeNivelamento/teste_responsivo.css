@@ -1,0 +1,151 @@
+@media (max-width: 468px) {
+    .instagram {
+        display: none;
+    }
+
+    header {
+        justify-content: center;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.85);
+    }
+
+    header img {
+        width: 67px;
+        height: 50px;
+    }
+
+    .container {
+        width: 100%;
+        margin: 20px auto;
+        margin-bottom: 0;
+    }
+
+    .container h1 {
+        font-weight: 550;
+        font-size: 19px;
+        margin-bottom: 20px;
+    }
+
+    #quiz {
+        padding: 0;
+        display: grid;
+    }
+
+    #quiz h2 {
+        font-weight: 550;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    #answer-button {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+    }
+
+    #answer-button button {
+        width: 70px;
+        height: 25px;
+        font-weight: 400;
+        font-size: 10px;
+        text-align: center;
+        padding: 0;
+        justify-self: center;
+    }
+
+
+    .progress-bar {
+        width: 300px;
+        height: 20px;
+        margin-bottom: 20px;
+    }
+
+    #progress-text {
+        font-weight: 700;
+        font-size: 15px;
+        margin: 0;
+    }
+
+    #back-btn,
+    #next-btn,
+    #finish-btn,
+    #back-question,
+    #restart-btn {
+        width: 70px;
+        height: 25px;
+        font-weight: 400;
+        font-size: 10px;
+        text-align: center;
+        padding: 0;
+        justify-self: center;
+    }
+
+    #finish h1 {
+        font-weight: 400;
+        font-size: 25px;
+        color: #0f0f0f;
+    }
+
+    .resultado {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .result-content1,
+    .result-content2 {
+        height: 250px;
+        width: 90%;
+        margin: 20px;
+        padding: 10px 20px;
+        gap: 0;
+    }
+
+    .result-content1 h1 {
+        font-size: 15px !important;
+        margin: 0;
+        padding: 0;
+    }
+
+    #result-bar {
+        width: 50%;
+        width: 50%px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #result-bar::before {
+        font-size: 14px !important;
+    }
+
+    .result-content1 h2 {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        height: 220px;
+    }
+    .contato{
+        margin-top: 20px;
+    }
+    .localizacao {
+        position: relative;
+        left: -15px;
+        margin-top: 30px;
+    }	
+
+    footer .contato h2,
+    footer .localizacao h2 {
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    footer p,
+    footer li {
+        font-weight: 700;
+        font-size: 12px;
+    }
+}

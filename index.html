@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <link rel="shortcut icon" href="./icon/logocentrodelinguas.ico" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Centro de Línguas</title>
+</head>
+
+<body>
+
+    <!-- cabeçalho -->
+
+  <header id="header">
+    <div class="logo">
+      <a href="#carrossel"><img src="./img/logocentrodelinguas.png"
+          alt="Logo centro do línguas que leva até o menu inicial" /></a>
+    </div>
+    <div class="topicos" id="topicos">
+      <button onclick="toggleSideBar()" class="menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-x"
+          viewBox="0 0 16 16">
+          <path
+            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+        </svg>
+      </button>
+      <a href="#sobre-nos">Sobre Nós</a>
+      <a href="#blog">Blog</a>
+      <a href="#cursos">Cursos</a>
+      <a href="#testes">Teste seu nível</a>
+      <a href="#faq_contato">Faq</a>
+      <div class="instagram">
+        <img src="./img/Instagramlogo.png" alt="Instagram link" />
+        <a href="https://www.instagram.com/centrodelinguasbpk/" target="_blank">
+          <p>@centrodelinguasbpk</p>
+        </a>
+      </div>
+    </div>
+    <div class="instagram-logo">
+      <a href="https://www.instagram.com/centrodelinguasbpk/" target="_blank">
+        <img src="./img/Instagramlogo.png" alt="Instagram link" />
+      </a>
+    </div>
+    <button onclick="toggleSideBar()" class="menu" id="menu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-list"
+        viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+          d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+      </svg>
+    </button>
+  </header>
+
+  <!-- Carrossel Home -->
+
+  <div id="carrossel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="./img/carrossel3.png" alt="Primeiro Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./img/carrossel1.png" alt="Segundo Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./img/carrossel3.png" alt="Terceiro Slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+  </div>
+
+  <!-- Sobre Nós -->
+
+  <div id="sobre-nos">
+    <div class="linhas">
+      <div class="grid-item">
+        <div id="circulo">
+          <img src="./img/bpk.jpg" alt="Imagem">
+        </div>
+      </div>
+    </div>
+    <div id="logomini">
+      <img src="./img/logomini.png" alt="Logo Mini">
+    </div>
+    <div class="grid-item-1">
+      <div class="texto-sobre">
+        <div class="poligono">
+          <div class="texto-grande">
+            <h1 align="center">Sobre Nós</h1>
+          </div>
+
+          <div class="texto-pequeno">
+            <h2 align="center">Sobre</h2>
+          </div>
+        </div>
+        <div class="box">
+          <h5 align="center">Centro de Línguas</h5>
+          <p align="center">O Centro de Línguas do Biopark (CLBK) foi criado em março de 2021 com o propósito
+            de possibilitar o acesso ao ensino de idiomas, inicialmente, aos colaboradores do Parque
+            Científico e Tecnológico de Biociências (Biopark). Em 2022, os alunos do Biopark Educação e a
+            população foram incluídos no plano de aulas oferecidas pelo CLBK.
+          </p>
+          <p align="center">
+            Em virtude da localização geográfica fronteiriça e em consonância com a proposta de
+            internacionalização que integra o cotidiano do Parque Científico e Tecnológico de Biociências, o
+            Centro de Línguas objetiva desenvolver a compreensão auditiva, a proficiência oral e a
+            habilidade escrita de idiomas estrangeiros e da Língua Portuguesa.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="imagemmobile">
+      <img src="./img/bpkmobile.png" alt="Imagem">
+    </div>
+  </div>
+
+  <!-- Blog -->
+
+  <div id="blog">
+      <div class="bg">
+        <h1>Blog</h1>
+    </div>
+      <div id="blog-content">
+        <div class="box-1">
+          <div class="box-img">
+            <h2>Inscrições de Nivelamento</h2>
+          </div>
+          <p>
+            Chegou a hora de dar aquele passo a mais na sua carreira: estão
+            abertas as inscrições para o nivelamento do Centro de Línguas do
+            Biopark Educação!
+          </p>
+        </div>
+        <div class="box-2">
+          <div class="box-img">
+            <h2>Embaixada solidária</h2>
+          </div>
+          <p>
+            Hoje participamos do projeto voluntário da Embaixada Solidária, uma
+            ONG de Toledo que ajuda os refugiados!
+          </p>
+        </div>
+        <div class="box-3">
+          <div class="box-img">
+            <h2>Dica do dia</h2>
+          </div>
+          <p>
+            Muitas são as dúvidas em relação à concordância com a palavra
+            GRAMA!-Quando se referir a PESO, o numeral deverá ficar sempre no
+            MASCULINO: Ex: DUZENTOS GRAMAS DE PRESUNTO!
+          </p>
+        </div>
+      </div>
+      <a href="./blog/blog.html">
+        <input type="button" value="Ver mais" id="blog-button" />
+      </a>
+    </div>
+
+  <!-- Cursos -->
+
+  <div id="cursos">
+    <div class="bg">
+      <h1>CURSOS OFERECIDOS PELO CENTRO DE LÍNGUAS</h1>
+    </div>
+    <div class="carrossel_cursos">
+      <!-- Ingles -->
+      <div class="cursos">
+        <div class="imagem_cursos">
+          <img
+            src="./img/Ingles flag.png"
+            alt="Bandeira Estados Unidos"
+            draggable="false"
+          />
+        </div>
+        <div class="cursos_texto">
+          <h2>INGLÊS</h2>
+          <p>
+            A língua inglesa é a língua mais falada no mundo e também é a
+            linguagem da internet (mais de 50% dos conteúdos estão em
+            inglês). Sendo assim, ter domínio dela aumenta a sua capacidade
+            de aprender, suas hipóteses de carreira no mercado de trabalho e
+            te permite viajar sem barreiras.
+          </p>
+        </div>
+        <div class="saiba_mais">
+          <a href="./SaibamaisCursos/SaibaMaisIngles.html"
+            ><img src="./img/Button.png"
+          /></a>
+          <a href="./SaibamaisCursos/SaibaMaisIngles.html">Saiba mais</a>
+        </div>
+      </div>
+      <!-- Espanhol -->
+      <div class="cursos">
+        <div class="imagem_cursos">
+          <img
+            src="./img/Espanhol flag.png"
+            alt="bandeira Espanha"
+            draggable="false"
+          />
+        </div>
+        <div class="cursos_texto">
+          <h2>ESPANHOL</h2>
+          <p>
+            A língua espanhola é uma das mais faladas, oficialmente ou
+            predominante, em mais de 20 países. Além disso, é a segunda
+            língua comercial mais importante, tendo grande relevância na
+            economia mundial. Dominar o espanhol pode te ajudar a se
+            relacionar com clientes e fornecedores, aumentando sua
+            experiência profissional. Aos estudantes, oferece muitas
+            vantagens culturais.
+          </p>
+        </div>
+        <div class="saiba_mais">
+          <a href="./SaibamaisCursos/SaibaMaisEspanhol.html"
+            ><img src="./img/Button.png"
+          /></a>
+          <a href="./SaibamaisCursos/SaibaMaisEspanhol.html">Saiba mais</a>
+        </div>
+      </div>
+
+      <!-- Frances -->
+      <div class="cursos">
+        <div class="imagem_cursos">
+          <img
+            src="./img/Frances flag.png"
+            alt="Bandeira França"
+            draggable="false"
+          />
+        </div>
+        <div class="cursos_texto">
+          <h2>FRANCÊS</h2>
+          <p>
+            Francês é a língua estrangeira que mais se ensina no mundo e,
+            por ter a maior rede de estabelecimentos culturais do mundo,
+            você pode aprendê-la e aperfeiçoá-la onde quer que você estiver.
+            A França possui a quinta potência comercial do mundo, por isso,
+            falar francês apresenta vantagens para encontrar um emprego no
+            mercado internacional de trabalho e, é a língua internacional da
+            gastronomia, moda, teatro, artes visuais, dança e arquitetura.
+          </p>
+        </div>
+        <div class="saiba_mais">
+          <a href="./SaibamaisCursos/SaibaMaisFrances.html"
+            ><img src="./img/Button.png"
+          /></a>
+          <a href="./SaibamaisCursos/SaibaMaisFrances.html">Saiba mais</a>
+        </div>
+      </div>
+      <!-- Portugues -->
+      <div class="cursos">
+        <div class="imagem_cursos">
+          <img
+            src="./img/Portugues flag.png"
+            alt="Bandeira Brasil"
+            draggable="false"
+          />
+        </div>
+        <div class="cursos_texto">
+          <h2>PORTUGUÊS</h2>
+          <p>
+            Você sabia que o português é a sétima língua mais falada do
+            mundo, sendo língua oficial em 9 países. Focado em ensina-lá aos
+            estrangeiros para poderem se comunicar melhor e, assim,
+            facilitando sua moradia no país. Aos nativos, melhorar sua
+            gramática e fala ajuda a ampliar seu repertório, auxilia a
+            alcançar seus objetivos educacionais de carreira e, por ser
+            derivada do latim, como espanhol, italiano e francês, facilita o
+            processo no aprendizado desses idiomas.
+          </p>
+        </div>
+        <div class="saiba_mais">
+          <a href="./SaibamaisCursos/SaibaMaisPortugues.html"
+            ><img src="./img/Button.png"
+          /></a>
+          <a href="./SaibamaisCursos/SaibaMaisPortugues.html">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Testes -->
+
+
+  <div id="testes">
+    <div class="menu_testes">
+        <main>
+            <section class="main-item1">
+                <div id="forma">
+                    <h1>TESTE SEU IDIOMA</h1>
+                </div>
+                <div>
+                    <h1>Descubra seu nível de conhecimento em inglês, francês ou espanhol. </h1>
+                    <h2>Teste gratuitamente seus conhecimentos em inglês, francês ou espanhol</h2>
+                    <p>Descubra o seu nível de inglês, francês ou espanhol com o teste online do Centro de Linguas. Ele
+                        é leve, divertido e pode ser feito pelo seu smartphone, computador ou tablet. Vamos começar?</p>
+                </div>
+            </section>
+            <section class="main-item2">
+                <div class="main-item2-content">
+                    <h2>Faça o teste online agora e decubra o curso ideal para voçê.</h2>
+                    <a href="./TestesdeNivelamento/teste_ingles.html">
+                        <div class="idioma">
+                            <img src="img/estados-unidos.png" alt="">
+                            <h3>Iniciar o teste de Inglês</h3>
+                        </div>
+                    </a>
+                    <a href="./TestesdeNivelamento/teste_espanhol.html">
+                        <div class="idioma">
+                            <img src="img/espanha.png" alt="">
+                            <h3>Iniciar o teste de Espanhol</h3>
+                        </div>
+                    </a>
+                    <a href="./TestesdeNivelamento/teste_frances.html">
+                        <div class="idioma">
+                            <img src="img/franca.png" alt="">
+                            <h3>Iniciar o teste de Francês</h3>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <div class="nivel">
+        <section class="nivel-content1">
+            <div>
+                <h1>Descubra nivel do seu inglês, espanhol ou francês</h1>
+                <p>No centro de línguas, você testa seu idioma sem compromisso. Aqui você encontra um teste completo
+                    construído com base nos conteúdos mostrados em sala. </p>
+            </div>
+            <h1>Os testes de nivel se classificam em até 6 níveis</h1>
+        </section>
+        <section class="nivel-content2">
+            <div class="mobile-basico">
+                <h2>Nivel Básico</h2>
+            </div>
+            <div class="nivel-card">
+                <div class="card-color"></div>
+                <div class="card-text">
+                    <h1>A1</h1>
+                    <h2 id="inv">BÁSICO</h2>
+                </div>
+            </div>
+            <div class="nivel-card">
+                <div class="card-color"></div>
+                <div class="card-text">
+                    <h1>A2</h1>
+                    <h2 id="inv">BÁSICO</h2>
+                </div>
+            </div>
+            <div class="mobile-inter">
+                <h2>Nivel Básico</h2>
+            </div>
+            <div class="nivel-card">
+                <div class="card-color"></div>
+                <div class="card-text">
+                    <h1>B1</h1>
+                    <h2 id="inv">INTEMEDIÁRIO</h2>
+                </div>
+            </div>
+            <div class="nivel-card">
+                <div class="card-color"></div>
+                <div class="card-text">
+                    <h1>B2</h1>
+                    <h2 id="inv">INTEMEDIÁRIO</h2>
+                </div>
+            </div>
+            <div class="mobile-avancado">
+                <h2>Nivel Básico</h2>
+            </div>
+            <div class="nivel-card">
+                <div class="card-color"></div>
+                <div class="card-text">
+                    <h1>C1</h1>
+                    <h2 id="inv">AVANÇADO</h2>
+                </div>
+            </div>
+            <div class="nivel-card">
+                <div class="card-color"></div>
+                <div class="card-text">
+                    <h1>C2</h1>
+                    <h2 id="inv">AVANÇADO</h2>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+
+<div class="hr-1"></div>
+<!-- Faq E contato -->
+
+
+<div id="faq_contato">
+  <main>
+      <section class="faq">
+          <div class="faq_tittle">
+          <h2>Perguntas & Respostas</h2>
+        </div>
+          <button class="pergunta">Qual o valor do curso do centro de línguas?</button>
+          <div class="resposta">
+            <p>O valor de todos os cursos são de R$ 79,90.</p>
+          </div>
+          
+          <button class="pergunta">Quanto tempo dura o curso?</button>
+          <div class="resposta">
+            <p>Todos os cursos tem duração de 12 semestres para se ir do nível A1 até o nível C2.</p>
+          </div>
+          
+          <button class="pergunta">Qual o método de ensino?</button>
+          <div class="resposta">
+            <p>O centro de línguas utiliza da metodologia de ensino ativa, tendo foco em atividades ativas que estimulem o aluno.</p>
+          </div>
+
+           
+          <button class="pergunta">O centro de línguas disponibiliza vale transporte?</button>
+          <div class="resposta">
+            <p>Não, o centro de línguas não disponibiliza vale transporte, ficando por conta do aluno o transporte até o Biopark.</p>
+          </div>
+
+          <script>
+              var acc = document.getElementsByClassName("pergunta");
+              var i;
+              
+              for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                  this.classList.toggle("active");
+                  var panel = this.nextElementSibling;
+                  if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                  } else {
+                    panel.style.display = "block";
+                  }
+                });
+              }
+              </script>
+      </section>
+
+      <div class="hr-2"></div>
+      
+      <section class="contato">
+          <h2>Contato</h2>
+          <form action="https://api.staticforms.xyz/submit" method="post">
+              <label>Nome:</label>
+              <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+              <label>Email:</label>
+              <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+              <label>Mensagem:</label>
+              <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+              <button type="submit">Enviar</button>
+              <input type="hidden" name="accessKey" value="d3847483-f878-4cfb-99d3-cc40b1f4c60d">
+              <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/index.html">
+          </form>
+      </section>
+  </main>
+</div>
+
+<!-- rodapé -->
+
+
+<footer>
+  <button class="top"><a href="#carrossel"><p>Topo</p> <img src="./img/arrow-up.svg" alt=""></a></button>
+  <div class="topicos">
+      <h2>Cursos</h2>
+      <ul>
+          <a href="./SaibamaisCursos/SaibaMaisIngles.html"><li>Inglês</li></a>
+          <a href="./SaibamaisCursos/SaibaMaisEspanhol.html"><li>Espanhol</li></a>
+          <a href="./SaibamaisCursos/SaibaMaisIngles.html"><li>Francês</li></a>
+          <a href="./SaibamaisCursos/SaibaMaisPortugues.html"><li>Português</li></a>
+      </ul>
+  </div>
+  <div class="institucional">
+      <a href="#blog">BLOG</a>
+      <a href="#testes">TESTE</a>
+      <a href="#sobre-nos">SOBRE</a>
+      <a href="#faq_contato">FAQ</a>
+  </div>
+  <div class="topicos">
+      <h2>Contato</h2>
+      <ul>
+          <li>Email: centrodelinguas@biopark.com.br</li>
+          <a href="https://www.instagram.com/centrodelinguasbpk/"><li>Instagram: @centrodelinguasbpk </li></a>
+          <li>Whatsapp: (45) 99114-8284</li>
+      </ul>
+  </div>
+  <div class="localizacao">
+      <img src="./img/localizacao.png" alt="pin de localização">
+      <h2>Localização</h2>
+      <p>Biopark - Avenida Max Planck, 3797. <br>Edifício Charles Darwin, Toledo - PR, <br>85919-899</p>
+  </div>
+</footer>
+
+  <script src="./scripts/script.js"></script>
+</body>
+
+</html>

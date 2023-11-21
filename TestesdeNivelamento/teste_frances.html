@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./icon/logocentrodelinguas.ico" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="teste.css">
+    <link rel="stylesheet" href="teste_responsivo.css">
+    <title>Teste</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="../index.html"><img src="assets/logocentrodelinguas.png"
+                    alt="Logo centro do línguas que leva até o menu inicial" /></a>
+        </div>
+        <div class="instagram">
+            <a href="https://www.instagram.com/centrodelinguasbpk/" target="_blank">
+                <img src="assets/instagran-azul.png" alt="Instagram link" />
+            </a>
+        </div>
+    </header>
+    <div class="container">
+        <h1>TESTE DE NIVELAMENTO DE FRANCÊS</h1>
+        <div id="quiz" class="hide">
+            <div id="progress-text">1/4</div>
+            <div class="progress-bar">
+                <div id="progress"></div>
+            </div>
+            <h2 id="pergunta">Bla bla bla?</h2>
+            <div id="answer-button">
+                <button class="btn btn-unselected">Resposta 1</button>
+                <button class="btn btn-unselected">Resposta 2</button>
+                <button class="btn btn-unselected">Resposta 3</button>
+                <button class="btn btn-unselected">Resposta 4</button>
+            </div>
+            <div class="submit-buttons">
+                <button id="back-btn">Anterior</button>
+                <button id="next-btn">Próximo</button>
+            </div>
+        </div>
+        <div id="finish" class="hide">
+            <h1>Deseja terminar o teste?</h1>
+            <div>
+                <button id="back-question">Voltar</button>
+                <button id="finish-btn">Terminar</button>
+            </div>
+        </div>
+        <div>
+            <div id="result" class="hide">
+                <section class="resultado">
+                    <div class="result-content1">
+                        <h1>ACERTOS</h1>
+                        <div id="result-bar"></div>
+                        <h2 id="result-text">você acertou 1 de 6 questões</h2>
+                    </div>
+                    <div class="result-content2">
+                        <h1>SEU NÍVEL É:</h1>
+                        <div id="result-nivel"></div>
+                        <p id="nivel-text"><strong>A1</strong> - O nível A1 está na sessão básica, isto pode significar o inicio de sua
+                            jornada... </p>
+                    </div>
+                </section>
+
+                <a href="../index.html"><button id="restart-btn">Retornar a página principal</button></a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="contato">
+            <h2>Contato</h2>
+            <ul>
+                <li>Email: centrodelinguas@biopark.com.br</li>
+                <li>Instagram: @centrodelinguasbpk </li>
+                <li>Whatsapp: (45) 99114-8284</li>
+            </ul>
+        </div>
+        <div class="localizacao">
+            <img src="assets/localizacao.png" alt="pin de localização">
+            <h2>Localização</h2>
+            <p>Biopark - Avenida Max Planck, 3797. <br>Edifício Charles Darwin, Toledo - PR, <br>85919-899</p>
+        </div>
+    </footer>
+
+
+    <script src="teste_frances.js"></script>
+</body>
+
+</html>
